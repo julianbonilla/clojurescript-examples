@@ -1,10 +1,33 @@
 # figwheel-main-lein
 
-FIXME: Write a one-line description of your library/project.
-
 ## Overview
 
-FIXME: Write a paragraph about the library/project and highlight its goals.
+Example using figwheel-main-template and lein:
+
+`lein new figwheel-main figwheel-main-lein`
+
+```
+.
+├── README.md
+├── dev.cljs.edn
+├── project.clj
+├── resources
+│   └── public
+│       ├── css
+│       │   └── style.css
+│       ├── index.html
+│       └── test.html
+├── src
+│   └── figwheel_main_lein
+│       └── core.cljs
+├── target
+│   └── public
+├── test
+│   └── figwheel_main_lein
+│       ├── core_test.cljs
+│       └── test_runner.cljs
+└── test.cljs.edn
+```
 
 ## Development
 
